@@ -23,29 +23,35 @@ const About = () => {
             <article className="about_card">
               <TbAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
 
             <article className="about_card">
               <ImUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>100+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className="about_card">
               <VscRootFolder className="about_icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            I am a software developer with robust problem-solving skills and
-            proven experience in creating and designing software in a
-            test-driven environment. A <b> Thinker, Team Management,
-            Collaborative and disciplined fresher </b>seeking an opportunity to work
-            in a challenging environment and utilize my knowledge in the growth
-            of the organization.
+            I am eager to contribute my expertise in a challenging role that
+            promotes growth. Proficient in Front End and Cloud Technologies, I have
+            hands-on experience in developing mobile and web applications using
+            ReactJS/NextJS, React-Native, Tailwind CSS, and AWS. My ability to
+            collaborate effectively within cross-functional teams, resolve
+            complex technical challenges, and adapt to emerging technologies
+            like React Native and Firebase highlights my adaptability and
+            commitment. I am passionate about driving innovation and delivering
+            high-quality solutions that exceed client expectations. I am
+            actively seeking a dynamic position where I can apply my skills and
+            enthusiasm, making substantial contributions to the organization's
+            success.
           </p>
 
           <a href="#contact" className="btn btn-primary">

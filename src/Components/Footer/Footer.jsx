@@ -22,15 +22,15 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href='https://facebook.com/MeShubhanshu'><FaFacebookF/></a>
-        <a href='https://instagram.com/shubhanshubb'><BsInstagram/></a>
-        <a href='https://twitter.com/shubhanshubb'><FiTwitter/></a>
-        <a href='https://www.linkedin.com/in/shubhanshubb/'><FiLinkedin/></a>
-        <a href='https://github.com/shubhanshubb'><FiGithub/></a>
+        <a href='https://facebook.com/MeShubhanshu' target="_blank"><FaFacebookF/></a>
+        <a href='https://instagram.com/shubhanshubb' target="_blank"><BsInstagram/></a>
+        <a href='https://twitter.com/shubhanshubb' target="_blank"><FiTwitter/></a>
+        <a href='https://www.linkedin.com/in/shubhanshubb/' target="_blank"><FiLinkedin/></a>
+        <a href='https://github.com/shubhanshubb' target="_blank"><FiGithub/></a>
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; SBTech. All rights reserved</small>
+        <small>SBTech. All rights reserved &copy; 2023</small>
       </div>
     </footer>
   )

@@ -32,13 +32,14 @@
 }
 
 .service_list {
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .service_list li {
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    /* flex-wrap: wrap; */
 }
 
 .service_list-icon {
@@ -47,6 +48,7 @@
 }
 .service_list p {
     font-size: 0.9rem;
+    width: 100%; 
 }
 
 /* ===========MEDIA QUERIES (MEDIUM DEVICES) ========== */
