@@ -39,20 +39,9 @@ const About = () => {
             </article>
           </div>
 
-          <p>
-            I am eager to contribute my expertise in a challenging role that
-            promotes growth. Proficient in Front End and Cloud Technologies, I have
-            hands-on experience in developing mobile and web applications using
-            ReactJS/NextJS, React-Native, Tailwind CSS, and AWS. My ability to
-            collaborate effectively within cross-functional teams, resolve
-            complex technical challenges, and adapt to emerging technologies
-            like React Native and Firebase highlights my adaptability and
-            commitment. I am passionate about driving innovation and delivering
-            high-quality solutions that exceed client expectations. I am
-            actively seeking a dynamic position where I can apply my skills and
-            enthusiasm, making substantial contributions to the organization's
-            success.
-          </p>
+          <p>As a React Native developer and software engineer deeply passionate about innovation and armed with problem-solving skills, I thrive in the dynamic landscape of the technology industry. My journey in App Development has always been characterized by a relentless pursuit of excellence and a commitment to staying at the forefront of technological advancements.
+Drawing from my extensive expertise in React-Native, NodeJS, SQL, Sockets, and a range of other cutting-edge technologies, I excel in leading projects from conception to execution. At Wiingy in Bengaluru, I spearheaded the development of a sophisticated mobile application, leveraging the power of node.js and socket.io to enhance real-time communication capabilities.
+My professional journey has been defined by a dedication to surpassing expectations, whether in crafting seamless user experiences or tackling complex technical challenges. Proficient in collaborating within cross-functional teams, I possess a track record of delivering high-quality solutions that exceed client expectations.</p>
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk
