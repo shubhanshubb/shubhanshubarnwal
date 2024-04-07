@@ -12,10 +12,24 @@ const Experience = () => {
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
           <div className="experience_content">
+          <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+              <h4>React Native</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-              <h4>HTML</h4>
+              <h4>iOS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+              <h4>Android</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -33,20 +47,6 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-              <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-              <h4>React Native</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
           </div>
         </div>
         {/* END of FrontEnd */}
@@ -54,6 +54,27 @@ const Experience = () => {
         <div className="experience_backend">
           <h3>Backend Development</h3>
           <div className="experience_content">
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+              <h4>Node JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+              <h4>SQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+              <h4>Socket.io</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
@@ -65,27 +86,6 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
               <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-              <h4>Node JS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-              <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-              <h4>C#</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
