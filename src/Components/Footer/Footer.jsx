@@ -1,41 +1,37 @@
-import React from 'react'
-import './footer.css'
-import {FaFacebookF} from 'react-icons/fa'
-import {BsInstagram} from 'react-icons/bs'
-import { BsTwitterX } from "react-icons/bs";
-import {FiLinkedin} from 'react-icons/fi'
-import {FiGithub} from 'react-icons/fi'
-import {FiPercent} from 'react-icons/fi'
+import React from 'react';
+import './footer.css';
+import { FaFacebookF } from 'react-icons/fa';
+import SB_Tech from '../../assets/SB_Tech.png';
+import { BsInstagram, BsTwitter } from 'react-icons/bs';
+import { FiLinkedin, FiGithub } from 'react-icons/fi';
 
 const Footer = () => {
   return (
     <footer>
-      <a fref="#" className='footer_logo'>SBTech</a>
+      <div className="sbTech">
+        <img src={SB_Tech} alt="tech" />
+      </div>
 
-      <ul className='permalinks'>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#experience'>Experience</a></li>
-        {/* <li><a href='#services'>Services</a></li>
-        <li><a href='#portfolio'>Portfolio</a></li>
-        <li><a href='#textimonials'>Testimonials</a></li> */}
-        <li><a href='#contact'>Contact</a></li>
+      <ul className="permalinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer_socials">
-        <a href='https://facebook.com/MeShubhanshu' target="_blank"><FaFacebookF/></a>
-        <a href='https://instagram.com/shubhanshubb' target="_blank"><BsInstagram/></a>
-        <a href='https://twitter.com/shubhanshubb' target="_blank"><BsTwitterX/></a>
-        <a href='https://www.linkedin.com/in/shubhanshubb/' target="_blank"><FiLinkedin/></a>
-        <a href='https://github.com/shubhanshubb' target="_blank"><FiGithub/></a>
-        <a href='https://github.com/shubhanshubb' target="_blank"><FiPercent/></a>
+        <a href="https://facebook.com/MeShubhanshu" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+        <a href="https://instagram.com/shubhanshubb" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+        <a href="https://twitter.com/shubhanshubb" target="_blank" rel="noopener noreferrer"><BsTwitter /></a>
+        <a href="https://www.linkedin.com/in/shubhanshubb/" target="_blank" rel="noopener noreferrer"><FiLinkedin /></a>
+        <a href="https://github.com/shubhanshubb" target="_blank" rel="noopener noreferrer"><FiGithub /></a>
       </div>
 
       <div className="footer_copyright">
-        <small>SBTech. All rights reserved &copy; 2023</small>
+        <small>© {new Date().getFullYear()} SBTech</small>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

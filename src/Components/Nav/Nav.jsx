@@ -1,22 +1,23 @@
-import React from 'react'
-import './nav.css'
-import { BiHomeSmile} from 'react-icons/bi'
-import { BiUser} from 'react-icons/bi'
-import { BiBook} from 'react-icons/bi'
-import {BiMessageSquareDetail} from 'react-icons/bi'
-import { useState } from 'react'
+import React, { useState } from 'react';
+import './nav.css';
+import { BiHomeSmile, BiUser, BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#');
+
+  const handleNavClick = (id) => {
+    setActiveNav(id);
+    document.getElementById(id.slice(1)).scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeSmile/></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser/></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
-      {/* <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a> */}
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
+      <button onClick={() => handleNavClick('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeSmile /></button>
+      <button onClick={() => handleNavClick('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser /></button>
+      <button onClick={() => handleNavClick('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></button>
+      <button onClick={() => handleNavClick('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></button>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

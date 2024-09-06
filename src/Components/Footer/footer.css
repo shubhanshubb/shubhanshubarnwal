@@ -10,6 +10,16 @@ footer a {
     color: var(--color-bg);
 }
 
+.sbTech {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
 .footer_logo {
     font-size: 2rem;
     font-weight: 500;
