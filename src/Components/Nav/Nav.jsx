@@ -8,12 +8,18 @@ import { useState } from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
+
+  const handleClick = (e, hash) => {
+    e.preventDefault()
+    setActiveNav(hash)
+    window.location.hash = hash
+  }
   return (
     <nav>
-      <button href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeSmile/></button>
-      <button href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser/></button>
-      <button href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></button>
-      <button href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></button>
+      <button onClick={(e) => handleClick(e, '#')} className={activeNav === '#' ? 'active' : ''}><BiHomeSmile/></button>
+      <button onClick={(e) => handleClick(e, '#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser/></button>
+      <button onClick={(e) => handleClick(e, '#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></button>
+      <button onClick={(e) => handleClick(e, '#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></button>
     </nav>
   )
 }
