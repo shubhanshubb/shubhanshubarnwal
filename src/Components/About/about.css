@@ -68,6 +68,13 @@
 .about_content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
+}
+.talk_btn {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    padding: 0.8rem 1.5rem;
+    /* background: var(--color-primary); */
 }
 
 /* ===========MEDIA QUERIES (MEDIUM DEVICES) ========== */

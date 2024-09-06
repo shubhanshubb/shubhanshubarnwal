@@ -40,6 +40,26 @@
     color: var(--color-primary);
 }
 
+.experience_details-white {
+    margin-top: 6px;
+    color: white;
+}
+
+.experience_details-black {
+    margin-top: 6px;
+    color: dimgrey;
+}
+
+.experience_details-yellow {
+    margin-top: 6px;
+    color: yellow;
+}
+
+.experience_details-green {
+    margin-top: 6px;
+    color: green;
+}
+
 /* ===========MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
     .experience_container {

@@ -1,6 +1,15 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { FaReact } from "react-icons/fa6";
+import { FcAndroidOs } from "react-icons/fc";
+import { IoIosAppstore } from "react-icons/io";
+import { BiLogoJavascript } from "react-icons/bi";
+import { SiNextdotjs, SiSocketdotio, SiPython, SiMui } from "react-icons/si";
+import { BiLogoFirebase } from "react-icons/bi";
+import { FaNode, FaAws } from "react-icons/fa";
+import { TbBrandMysql } from "react-icons/tb";
+
 
 const Experience = () => {
   return (
@@ -13,37 +22,44 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience_content">
           <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <FaReact className="experience_details-icon" />
               <div>
               <h4>React Native</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <IoIosAppstore className="experience_details-white" />
               <div>
               <h4>iOS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <FcAndroidOs className="experience_details-icon" />
               <div>
               <h4>Android</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <SiNextdotjs className="experience_details-black" />
               <div>
-                <h4>CSS</h4>
+                <h4>NextJS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BiLogoJavascript className="experience_details-icon" />
               <div>
               <h4>JavaScript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiMui className="experience_details-icon" />
+              <div>
+              <h4>MUI</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -55,37 +71,44 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <FaNode className="experience_details-green" />
               <div>
               <h4>Node JS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <TbBrandMysql className="experience_details-white" />
               <div>
               <h4>SQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <SiSocketdotio className="experience_details-white" />
               <div>
               <h4>Socket.io</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <FaAws className="experience_details-white" />
               <div>
-              <h4>PHP</h4>
+              <h4>AWS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <SiPython className="experience_details-white" />
               <div>
               <h4>Python</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BiLogoFirebase className="experience_details-yellow" />
+              <div>
+              <h4>Firebase</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

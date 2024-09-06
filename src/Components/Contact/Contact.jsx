@@ -4,7 +4,6 @@ import {MdOutlineMailOutline} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {SiWhatsapp} from 'react-icons/si'
 import { useRef } from 'react'
-import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef();
@@ -12,13 +11,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_xoueosz', 'template_tsdjprb', form.current, 'wHWY_pO5eL844KARX')
-    .then((result) => {
-      console.log(result.text);
-      }, (error) => {
-      console.log(error.text);
-      });
-      e.target.reset()
+    
     };
     
   return (
@@ -31,8 +24,8 @@ const Contact = () => {
           <article className="contact_option">
             <MdOutlineMailOutline className='contact_option-icon'/>
             <h4>Email</h4>
-           {/* <h5>shubhanshubb@gmail.com</h5> */}
-           <a href="mailto:connect@shubhanshubb.dev" target="_blank">Mail me</a>
+           {/* <h5>connect@shubhanshubb.dev</h5> */}
+           <a href="mailto:connect@shubhanshubb.dev">Mail me</a>
           </article>
           <article className="contact_option">
             <RiMessengerLine className='contact_option-icon'/>
