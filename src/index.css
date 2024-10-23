@@ -131,6 +131,12 @@ img {
     .container {
         width: var(--container-width-ms);
     }
+    section {
+        margin: 0;
+    }
+    .btn {
+        margin: auto;
+    }
 
     section > h2 {
         margin-bottom: 2rem;
